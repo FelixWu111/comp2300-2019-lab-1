@@ -1,8 +1,10 @@
 .syntax unified
 .global main
-
 .type main, %function
+
 main:
-  nop
-  b main
-.size main, .-main
+  mov r1, 0
+
+loop:
+  add r1, 1
+  b loop
