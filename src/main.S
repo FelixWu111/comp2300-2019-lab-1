@@ -8,3 +8,5 @@ main:
 loop:
   add r1, 1
   b loop
+
+  //test push
